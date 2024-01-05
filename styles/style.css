@@ -106,3 +106,22 @@
     margin-right: 20px;
     margin-bottom: -4px;
 }
+
+.banner-btn {
+    color: #FD6E0A;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #FFF8F3;
+    padding: 5px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    border: 1px solid #FD6E0A;
+}
+
+.banner-btn:hover {
+    background-color: #FD6E0A;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFF8F3;
+
+}
