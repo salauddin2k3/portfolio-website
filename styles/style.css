@@ -1,0 +1,93 @@
+/* common shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.btn-primary {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #FD6E0A;
+    border: 0;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+/* Header Styling */
+
+.header {
+    background-color: #FFF8F3;
+}
+
+
+/* Navbar Styling */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 130px;
+    padding-top: 20px;
+}
+
+.nav-logo>h3 {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.nav-menu>ul {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.nav-menu>ul>li {
+    padding-left: 25px;
+}
+
+.nav-menu>ul a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.span-logo {
+    color: #FD6E0A;
+}
+
+/* Banner Styling */
+
+.banner {
+    display: flex;
+}
+
+.banner-dis {
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.banner-i-am {
+    font-size: 23px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-name {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.banner-name-dis {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+.banner-img img {
+    width: 350px;
+}
